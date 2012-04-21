@@ -1,0 +1,37 @@
+nav#taxonomies .taxonomy-root {
+    border-bottom:none;
+    margin-bottom: 5px;
+    color: #404042;
+}
+
+nav#taxonomies .taxons-list{
+    list-style:none;
+}
+
+nav#taxonomies .taxons-list li a {
+    color:grey;
+    list-style:none;
+}
+nav#taxonomies .taxons-list li a:hover {
+    color:grey;
+    list-style:none;
+}
+nav#taxonomies.sidebar-item h6.taxonomy-root a:hover {
+    color:black;
+}
+
+.taxonomy-root {
+    color:grey;
+}
+
+a:link {
+-webkit-tap-highlight-color: #404042;
+}
+
+a {
+    background-color:none;
+    text-decoration: none;
+    color: #404042;
+    -webkit-tap-highlight-color:none;
+}
+

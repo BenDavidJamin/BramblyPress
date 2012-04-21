@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ *= require store/spree_core
+ *= require store/spree_auth
+ *= require store/spree_api
+ *= require store/spree_promo
+
+ *= require_self
+ *= require_tree .
+*/
+
+.row {
+    width: 98%;
+    padding-right:0px;
+}
+
+
+.container .twelve.columns{
+    width:85%;
+    float:left;
+}
+.thumbnails{
+    float:right;
+    width:130px;
+}
+#product-thumbnails {
+    margin-top: -5px;
+}
+
+
+ul#products li .price {
+    color: black;
+    font-size: 12px;
+    text-align:left;
+}
+
+ul#products li a.info {
+margin-top: 5px;
+font-size: 12px;
+text-align:left;
+color: #BBB;
+}
+
+nav#top-nav-bar {
+    float:right;
+    padding-right:20px;
+}
+#product-thumbnails li{
+    border:none;
+}
+
+#product-images #main-image{
+    border:none;
+    float:left;
+}
+#thumbnails {
+    float:right;
+}
+
+#home-link {
+    margin-left:180px;
+}
+
+.container .six.columns {
+    padding-top:20px;
+    width: 450px;
+}
+
+.container .sixteen.columns {
+width: 98%;
+}
+
+.container {
+    margin-left: 20px;
+    width: 98%;
+}

@@ -1,0 +1,24 @@
+ul#products li a.info {
+    border-bottom:none ;
+}
+
+ul#products li .product-image {
+    
+}
+#content .six.columns.alpha{
+    float:right;
+}
+
+#content .container .ten.columns.omega {
+    float:left;
+}
+.container .ten.columns{
+    width:auto;
+    float:right;
+    padding-right:10%;
+}
+
+.container .four.columns {
+    width:10%;
+    float:left;
+}
