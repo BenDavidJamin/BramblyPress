@@ -9,7 +9,7 @@ gem 'rails', '3.1.4'
 # For heroku
 #gem 'pg'
 
-
+gem 'aws-s3'
 gem 'json'
 
 # Gems used only for assets and not required
